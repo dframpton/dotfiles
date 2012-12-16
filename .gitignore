@@ -1,1 +1,7 @@
 vim/view/
+
+# XMonad
+xmonad.errors
+xmonad.hi
+xmonad.o
+xmonad-i386-linux
