@@ -36,7 +36,7 @@ set showmode
 set guioptions=ac
 
 " Switch on syntax highlighting
-syntax on
+syntax enable
 
 " Save and load folds
 au BufWinLeave * silent! mkview
@@ -44,8 +44,9 @@ au BufWinEnter * silent! loadview
 
 if has('gui_running')
   set guioptions-=T  " no toolbar
-  set guifont=Ubuntu\ Mono\ 11
-  colorscheme desert
+  set guifont=Ubuntu\ Mono\ 12
+  set background=dark
+  colorscheme solarized
 endif
 
 " No backup/swap files
